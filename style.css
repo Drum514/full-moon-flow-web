@@ -254,6 +254,27 @@ a:hover {
   text-decoration: none;
 }
 
+/* Hero QR Code */
+.hero-qr {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hero-qr-divider {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.hero-qr-img {
+  width: 100px;
+  height: 100px;
+  border-radius: var(--radius-sm);
+}
+
 .hero-availability {
   font-size: 0.9rem;
   color: var(--text-light);
@@ -755,6 +776,10 @@ details.faq-item[open] .faq-answer {
     flex-direction: column;
     width: 100%;
     align-items: center;
+  }
+
+  .hero-qr {
+    display: none;
   }
   
   .app-preview-inner {
