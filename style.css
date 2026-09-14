@@ -741,6 +741,12 @@ details.faq-item[open] .faq-answer {
 }
 
 /* Responsive Styles */
+@media (max-width: 768px) {
+  .hero-qr {
+    display: none !important;
+  }
+}
+
 @media (max-width: 640px) {
   h1 {
     font-size: 1.9rem;
@@ -776,10 +782,6 @@ details.faq-item[open] .faq-answer {
     flex-direction: column;
     width: 100%;
     align-items: center;
-  }
-
-  .hero-qr {
-    display: none;
   }
   
   .app-preview-inner {
